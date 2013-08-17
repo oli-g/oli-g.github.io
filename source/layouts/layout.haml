@@ -1,7 +1,7 @@
 !!!5
-/[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7">
-/[if IE 7] <html class="no-js lt-ie9 lt-ie8">
-/[if IE 8] <html class="no-js lt-ie9">
+/ [if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7">
+/ [if IE 7] <html class="no-js lt-ie9 lt-ie8">
+/ [if IE 8] <html class="no-js lt-ie9">
 / [if gt IE 8]><!
 %html.no-js
   / <![endif]
@@ -16,8 +16,12 @@
     -#OR, place favicon.ico and apple-touch-icon.png in /source and deactivate :favicon_maker in config.rb
 
     %title= data.page.title || "ZURB Foundation"
-    / Included CSS Files
+
+    = stylesheet_link_tag "font-awesome/css/font-awesome.min"
+    / [if IE 7]
+      = stylesheet_link_tag "font-awesome/css/font-awesome-ie7.min"
     = stylesheet_link_tag "app"
+
     = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'
     = javascript_include_tag "vendor/custom.modernizr.js"
 
@@ -26,14 +30,15 @@
     .row
       .twelve.columns
         %h2 Welcome to Foundation on Middleman
-        %p This is version 4.0.0.
+        %p This is version 4.3.1.
         %hr
     %section{:role => "main", :class => "main"}= yield
     %footer
+
     -# Application Javascript, safe to override
     = javascript_include_tag "app"
 
-    -# Google Analytics
+    / Google Analytics
     :javascript
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
