@@ -1,18 +1,16 @@
 source "https://rubygems.org"
 
-gem "middleman"
+gem "middleman", "~> 3.1.4"
+gem "middleman-blog", "~> 3.2.0"
 gem "middleman-livereload", :git => "git://github.com/middleman/middleman-livereload.git"
 gem "middleman-smusher", :git  => "git://github.com/middleman/middleman-smusher.git"
 gem "middleman-favicon-maker", :git => "git://github.com/follmann/middleman-favicon-maker.git"
 
 gem "compass"
-gem 'oily_png'
+gem "zurb-foundation", "~> 4.3.1", require: false
+gem "susy", "~> 1.0.9"
+gem "redcarpet", "~> 3.0.0"
+gem "oily_png", "~> 1.1.0"
 
-gem "zurb-foundation"
-
-gem "susy", "~>1.0.5"
-gem "redcarpet"
-
-gem 'haml', "< 4.0"
-
-gem 'coffee-filter' # Coffeescript filter for HAML
+gem "haml", "< 4.0"
+gem "coffee-filter", "~> 0.1.2"
