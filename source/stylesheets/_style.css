@@ -1,0 +1,38 @@
+/*================
+     Header
+===============*/
+
+.nav-bar .button {
+  margin-bottom: .75em;
+}
+
+/*================
+     Footer
+===============*/
+
+.site-footer {
+  padding-top: 20px;
+  border-top: 1px solid #CCC;
+}
+
+/*================
+     Contact
+===============*/
+
+.social i {
+  font-size: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.social li {
+  font-size: 20px;
+}
+
+
+/* Medium Displays: 768px - 1279px */
+
+@media only screen and (min-width: 48em) {
+  .nav-bar {
+    float: right;
+  }
+}
