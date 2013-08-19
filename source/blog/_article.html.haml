@@ -16,3 +16,7 @@
           = article.summary
         - else
           = article.body
+
+        - if digest and article.summary.length < article.body.length
+          %p.readmore
+            = link_to "Read more &rarr;", article.url, class: "button secondary radius tiny"

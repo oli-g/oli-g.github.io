@@ -21,10 +21,7 @@
     = javascript_include_tag "vendor/custom.modernizr"
 
   %body{:class => page_classes}
-
-    / Header
-
-    .row
+    %header.row
       .large-12.columns
         .nav-bar
           %ul.button-group
@@ -37,20 +34,16 @@
           %a{:href => "/"} OLI-G in da House
         %hr
 
-    / Main Content
-
     %section{:role => "main", :class => "main"}
       = yield
-
-    / Footer
 
     %footer.row
       .large-12.columns
         %hr
         .row
-          .large-4.columns
+          .large-4.small-4.columns
             %p © OLI-G 2013. All rights reserved.
-          .large-8.columns
+          .large-8.small-8.columns
             %p.right
               Powered by
               %a{:href => "http://middlemanapp.com/"} Middleman

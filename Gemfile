@@ -16,4 +16,3 @@ gem "susy", "~> 1.0.9"
 gem "zurb-foundation", "~> 4.3.1", require: false
 gem "redcarpet", "~> 3.0.0"
 gem "oily_png", "~> 1.1.0"
-
