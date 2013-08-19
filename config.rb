@@ -10,6 +10,17 @@ require "zurb-foundation"
 #   config.output_style = :compact
 # end
 
+# Assets directories
+set :css_dir, "stylesheets"
+set :js_dir, "javascripts"
+set :images_dir, "images"
+
+###
+# HAML
+###
+
+set :haml, :ugly => true, :format => :html5
+
 ###
 # Markdown
 ###
@@ -18,8 +29,8 @@ set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true, :autolink => true,  :smartypants => true
 
 ###
-## Blog settings
-####
+# Blog settings
+###
 
 Time.zone = "Europe/Rome"
 
@@ -89,11 +100,18 @@ activate :livereload
 #   end
 # end
 
-set :css_dir, "stylesheets"
-set :js_dir, "javascripts"
-set :images_dir, "images"
+###
+# Development settings
+###
 
-# Build-specific configuration
+configure :development do
+  # set :debug_assets, true
+end
+
+###
+# Build settings
+###
+
 configure :build do
   # For example, change the Compass output style for deployment
   activate :minify_css
