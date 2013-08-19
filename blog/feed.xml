@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>OLI-G in da House</title>
+  <subtitle>Subtitle</subtitle>
+  <id>http://oli-g.github.io/blog</id>
+  <link href="http://oli-g.github.io/blog"/>
+  <link href="http://oli-g.github.io/blog/feed.xml" rel="self"/>
+  <updated>2013-08-11T22:00:00Z</updated>
+  <author>
+    <name>Giannicola Olivadoti</name>
+  </author>
+  <entry>
+    <title>Second Example Article</title>
+    <link rel="alternate" href="/blog/2013-08-12-second-example-article/"/>
+    <id>/blog/2013-08-12-second-example-article/</id>
+    <published>2013-08-11T22:00:00Z</published>
+    <updated>2013-08-11T22:00:00Z</updated>
+    <author>
+      <name>Giannicola Olivadoti</name>
+    </author>
+    <summary type="html">&lt;p&gt;This is another example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lorem quis eros dictum dictum a vitae purus. Quisque non elit sit amet turpis ullamcorper blandit. 
+Suspendisse vitae turpis et enim feugiat ullamcorper at non turpis. Vestibulum posuere, eros eget vulputate faucibus, metus massa congue velit, non pulvinar tortor risus 
+ut enim. Pellentesque lectus ligula, vehicula luctus volutpat in, convallis quis ante. Proin non odio eu orci feugiat feugiat. Mauris molestie nisi non venenatis molestie. 
+Pellentesque facilisis eros ut ultrices ultrices.
+</summary>
+    <content type="html">&lt;p&gt;This is another example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lorem quis eros dictum dictum a vitae purus. Quisque non elit sit amet turpis ullamcorper blandit. 
+Suspendisse vitae turpis et enim feugiat ullamcorper at non turpis. Vestibulum posuere, eros eget vulputate faucibus, metus massa congue velit, non pulvinar tortor risus 
+ut enim. Pellentesque lectus ligula, vehicula luctus volutpat in, convallis quis ante. Proin non odio eu orci feugiat feugiat. Mauris molestie nisi non venenatis molestie. 
+Pellentesque facilisis eros ut ultrices ultrices.
+&lt;/p&gt;
+
+&lt;p&gt;Nam commodo hendrerit scelerisque. Ut tristique lacus lobortis neque rhoncus, ut tempor enim mattis. Suspendisse vel eleifend quam. Suspendisse luctus nisl eget elit euismod, 
+in sodales metus blandit. Mauris nisi eros, venenatis a sagittis id, dictum id arcu. Nam tempus pulvinar ante at semper. Donec tincidunt dolor ac sem tempor laoreet.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Example Article</title>
+    <link rel="alternate" href="/blog/2013-07-02-example-article/"/>
+    <id>/blog/2013-07-02-example-article/</id>
+    <published>2013-07-01T22:00:00Z</published>
+    <updated>2013-07-01T22:00:00Z</updated>
+    <author>
+      <name>Giannicola Olivadoti</name>
+    </author>
+    <summary type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lorem quis eros dictum dictum a vitae purus. Quisque non elit sit amet turpis ullamcorper blandit. 
+Suspendisse vitae turpis et enim feugiat ullamcorper at non turpis. Vestibulum posuere, eros eget vulputate faucibus, metus massa congue velit, non pulvinar tortor risus 
+ut enim. Pellentesque lectus ligula, vehicula luctus volutpat in, convallis quis ante. Proin non odio eu orci feugiat feugiat. Mauris molestie nisi non venenatis molestie. 
+Pellentesque facilisis eros ut ultrices ultrices.
+</summary>
+    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lorem quis eros dictum dictum a vitae purus. Quisque non elit sit amet turpis ullamcorper blandit. 
+Suspendisse vitae turpis et enim feugiat ullamcorper at non turpis. Vestibulum posuere, eros eget vulputate faucibus, metus massa congue velit, non pulvinar tortor risus 
+ut enim. Pellentesque lectus ligula, vehicula luctus volutpat in, convallis quis ante. Proin non odio eu orci feugiat feugiat. Mauris molestie nisi non venenatis molestie. 
+Pellentesque facilisis eros ut ultrices ultrices.
+&lt;/p&gt;
+
+&lt;p&gt;Nam commodo hendrerit scelerisque. Ut tristique lacus lobortis neque rhoncus, ut tempor enim mattis. Suspendisse vel eleifend quam. Suspendisse luctus nisl eget elit euismod, 
+in sodales metus blandit. Mauris nisi eros, venenatis a sagittis id, dictum id arcu. Nam tempus pulvinar ante at semper. Donec tincidunt dolor ac sem tempor laoreet.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
