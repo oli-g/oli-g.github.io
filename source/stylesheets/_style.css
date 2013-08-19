@@ -18,12 +18,3 @@
 .social li {
   font-size: 20px;
 }
-
-
-/* Medium Displays: 768px - 1279px */
-
-@media only screen and (min-width: 48em) {
-  .nav-bar {
-    float: right;
-  }
-}
