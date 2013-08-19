@@ -21,34 +21,37 @@
     = javascript_include_tag "vendor/custom.modernizr"
 
   %body{:class => page_classes}
-    %header.row
-      .large-12.columns
-        .nav-bar
-          %ul.button-group
-            %li
-              %a.button{:href => "/"} About
-            %li
-              %a.button{:href => "/blog"} Blog
-
-        %h1 
-          %a{:href => "/"} OLI-G in da House
-        %hr
+    %header
+      .row
+        .large-8.small-12.columns
+          %h1 
+            %a{:href => "/"} OLI-G in da House
+      .row
+        .large-12.columns
+          .nav-bar
+            %ul.button-group
+              %li
+                %a.button{:href => "/"} About
+              %li
+                %a.button{:href => "/blog"} Blog
+          %hr
 
     %section{:role => "main", :class => "main"}
       = yield
 
-    %footer.row
-      .large-12.columns
-        %hr
-        .row
-          .large-4.small-4.columns
-            %p © OLI-G 2013. All rights reserved.
-          .large-8.small-8.columns
-            %p.right
-              Powered by
-              %a{:href => "http://middlemanapp.com/"} Middleman
-              Hosted by
-              %a{:href => "http://pages.github.com/"} GitHub Pages
+    %footer
+      .row
+        .large-12.columns
+          %hr
+          .row
+            .large-4.small-3.columns
+              %p © OLI-G 2013. All rights reserved.
+            .large-6.small-7.columns
+              %p.right
+                Powered by
+                %a{:href => "http://middlemanapp.com/"} Middleman
+                Hosted by
+                %a{:href => "http://pages.github.com/"} GitHub Pages
 
     = javascript_include_tag "application"
 
