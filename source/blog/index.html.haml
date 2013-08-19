@@ -1,0 +1,9 @@
+---
+title: Blog
+pageable: true
+---
+
+.row
+  .large-12.columns.articles{:role => "content"}
+    - page_articles.each do |article|
+      = partial "blog/article", :locals => { :article => article, :digest => true }

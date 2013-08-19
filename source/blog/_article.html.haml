@@ -1,0 +1,18 @@
+%article
+  - if digest
+    %h3
+      = link_to article.title, article
+  - else
+    %h2
+      = article.title
+
+  %h6
+    = article.date.strftime("%b %e, %Y")
+
+  .row
+    .large-12.columns
+      %div
+        - if digest
+          = article.summary
+        - else
+          = article.body
