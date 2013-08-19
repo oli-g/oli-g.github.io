@@ -1,0 +1,4 @@
+- wrap_layout :layout do
+  .row
+    .large-12.columns.articles{:role => "content"}
+      = partial "blog/article", :locals => { :article => current_article, :digest => false }
