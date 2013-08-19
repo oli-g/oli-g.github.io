@@ -3,8 +3,10 @@ source "https://rubygems.org"
 gem "middleman", "~> 3.1.4"
 gem "middleman-blog", "~> 3.2.0"
 gem "middleman-livereload", "~> 3.1.0"
-gem "middleman-smusher", :git  => "git://github.com/middleman/middleman-smusher.git"
-gem "middleman-favicon-maker", :git => "git://github.com/follmann/middleman-favicon-maker.git"
+
+gem "middleman-smusher", github: "middleman/middleman-smusher"
+gem "middleman-imageoptim", github: "plasticine/middleman-imageoptim"
+gem "middleman-favicon-maker", github: "follmann/middleman-favicon-maker"
 
 gem "compass"
 gem "zurb-foundation", "~> 4.3.1", require: false

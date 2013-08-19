@@ -19,14 +19,14 @@ set :images_dir, "images"
 # HAML
 ###
 
-set :haml, :ugly => true, :format => :html5
+set :haml, ugly: true, format: :html5
 
 ###
 # Markdown
 ###
 
 set :markdown_engine, :redcarpet
-set :markdown, :fenced_code_blocks => true, :autolink => true,  :smartypants => true
+set :markdown, fenced_code_blocks: true, autolink: true, smartypants: true
 
 ###
 # Blog settings
@@ -55,7 +55,7 @@ activate :blog do |blog|
   blog.page_link = "page/:num"
 end
 
-page "/blog/feed.xml", :layout => false
+page "/blog/feed.xml", layout: false
 
 ###
 # Page options, layouts, aliases and proxies
@@ -64,8 +64,8 @@ page "/blog/feed.xml", :layout => false
 # Per-page layout changes:
 #
 # With no layout
-page "robots.txt", :layout => false
-page "humans.txt", :layout => false
+page "robots.txt", layout: false
+page "humans.txt", layout: false
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
@@ -126,9 +126,10 @@ configure :build do
   # activate :relative_assets
 
   # Compress PNGs after build
-  # First: gem install middleman-smusher
-  # require "middleman-smusher"
-  # activate :smusher
+  activate :smusher
+
+  # Compress images after build
+  # activate :image_optim
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
