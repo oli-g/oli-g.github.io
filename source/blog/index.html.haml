@@ -3,6 +3,9 @@ title: Blog
 pageable: true
 ---
 
+- content_for :title do
+  OLI-G in da House | Blog
+
 .row
   .large-12.columns.articles{:role => "content"}
     - page_articles.each do |article|

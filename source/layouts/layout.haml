@@ -16,8 +16,10 @@
     - # OR, place favicon.ico and apple-touch-icon.png in /source and deactivate :favicon_maker in config.rb
 
     %title
-      OLI-G in da House
-      = # data.page.title
+      - if content_for? :title
+        = yield_content :title
+      - else
+        = current_page.data.title.present? ? "OLI-G in da House | #{data.page.title}" : "OLI-G in da House"
 
     = stylesheet_link_tag "application"
     = javascript_include_tag "vendor/custom.modernizr"
