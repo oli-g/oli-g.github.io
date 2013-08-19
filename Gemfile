@@ -14,3 +14,4 @@ gem "oily_png", "~> 1.1.0"
 
 gem "haml", "< 4.0"
 gem "coffee-filter", "~> 0.1.2"
+gem "builder", "~> 3.2.2"
