@@ -19,4 +19,6 @@
 
         - if digest and article.summary.length < article.body.length
           %p.readmore
-            = link_to "Read more &rarr;", article.url, class: "button secondary radius tiny"
+            = link_to article.url, class: "button secondary radius tiny" do
+              Read More
+              %i.icon-arrow-right
