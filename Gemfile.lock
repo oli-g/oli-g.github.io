@@ -50,6 +50,8 @@ GEM
     favicon_maker (0.2.3)
       mini_magick (~> 3.5)
     ffi (1.9.0)
+    font-awesome-middleman (1.0.1)
+      middleman (>= 3.0.0)
     fspath (2.0.5)
     fssm (0.2.10)
     haml (3.1.8)
@@ -170,6 +172,7 @@ DEPENDENCIES
   builder (~> 3.2.2)
   coffee-filter (~> 0.1.2)
   compass
+  font-awesome-middleman (~> 1.0.1)
   haml (< 4.0)
   middleman (~> 3.1.4)
   middleman-blog (~> 3.2.0)

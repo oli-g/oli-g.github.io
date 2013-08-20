@@ -14,5 +14,6 @@ gem "builder", "~> 3.2.2"
 gem "compass"
 gem "susy", "~> 1.0.9"
 gem "zurb-foundation", "~> 4.3.1", require: false
+gem "font-awesome-middleman", "~> 1.0.1"
 gem "redcarpet", "~> 3.0.0"
 gem "oily_png", "~> 1.1.0"
