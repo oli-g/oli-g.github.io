@@ -23,62 +23,13 @@
 
   %body{:class => page_classes}
     %header
-      .row
-        .large-12.small-12.columns
-          %h1 
-            %a{:href => "/"} OLI-G
-            in da House
-          .row
-            .large-6.small-6.columns
-              %ul.button-group
-                %li
-                  %a.secondary.radius.button{:href => "/"} about
-                %li
-                  %a.secondary.radius.button{:href => "/blog"} blog
-
-            .large-6.small-6.contacts.columns
-              %a{href: "http://www.linkedin.com"}
-                %span.icon-stack.icon-large.right
-                  %i.icon-circle.icon-stack-base
-                  %i.icon-linkedin.icon-light
-              %a{href: "http://www.linkedin.com"}
-                %span.icon-stack.icon-large.right
-                  %i.icon-circle.icon-stack-base
-                  %i.icon-github-alt.icon-light
-              %a{href: "http://www.linkedin.com"}
-                %span.icon-stack.icon-large.right
-                  %i.icon-circle.icon-stack-base
-                  %i.icon-twitter.icon-light
-              %a{href: "http://www.linkedin.com"}
-                %span.icon-stack.icon-large.right
-                  %i.icon-circle.icon-stack-base
-                  %i.icon-google-plus.icon-light
-              %a{href: "http://www.linkedin.com"}
-                %span.icon-stack.icon-large.right
-                  %i.icon-circle.icon-stack-base
-                  %i.icon-envelope.icon-light
-              %a{href: "http://www.linkedin.com"}
-                %span.icon-stack.icon-large.right
-                  %i.icon-circle.icon-stack-base
-                  %i.icon-rss.icon-light
-          %hr
+      = partial "layouts/header"
 
     %section{:role => "main", :class => "main"}
       = yield
 
     %footer
-      .row
-        .large-12.columns
-          %hr
-          .row
-            .large-4.small-3.columns
-              %p © OLI-G 2013. All rights reserved.
-            .large-6.small-7.columns
-              %p.right
-                Powered by
-                %a{:href => "http://middlemanapp.com/"} Middleman
-                Hosted by
-                %a{:href => "http://pages.github.com/"} GitHub Pages
+      = partial "layouts/footer"
 
     = javascript_include_tag "application"
 
