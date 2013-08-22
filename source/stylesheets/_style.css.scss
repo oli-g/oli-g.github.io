@@ -1,5 +1,10 @@
 html, body {
   background: #F2F2F0;
+  font-family: "Droid Sans", sans-serif;
+
+  a:hover {
+    @include opacity(0.5);
+  };
 }
 
 /*================
@@ -7,27 +12,56 @@ html, body {
 ================*/
 
 header {
+  $header-hr-color: #fe5f25;
+
   padding-top: emCalc(40);
-  padding-bottom: emCalc(30);
+  padding-bottom: emCalc(15);
 
   h1 {
     font-family: Signika, sans-serif;
     font-weight: 300;
+    margin-bottom: 0;
 
     a {
+      font-size: 1.48em;
       font-weight: 700;
     }
   }
 
-  .button-group a {
-    font-family: Signika, sans-serif;
-    font-weight: 400;
-    margin-top: emCalc(10);
+  #claim {
+    font-size: emCalc(14);
   }
 
-  span.icon-stack {
-    color: #222;
-    margin-top: emCalc(5);
+  .contacts {
+    padding-top: emCalc(40);
+
+    @media #{$large} {
+      text-align: right;
+    }
+    text-align: center;
+
+    span.icon-stack {
+      margin-top: emCalc(5);
+    }
+  }
+
+  hr {
+    height: emCalc(3);
+    border-bottom: emCalc(1) solid $header-hr-color;
+    border-top: emCalc(3) solid $header-hr-color;
+  }
+
+  nav {
+    font-family: Signika, sans-serif;
+    text-align: center;
+    font-size: emCalc(14);
+    ul {
+      li {
+        display: inline;
+        list-style-type: none;
+        padding-right: emCalc(20);
+      }
+    }
   }
 }
 
@@ -43,7 +77,7 @@ article {
 }
 
 p {
-  font-family: "Droid Sans", sans-serif;
+  /*font-family: "Droid Sans", sans-serif;*/
 }
 
 /*===========
