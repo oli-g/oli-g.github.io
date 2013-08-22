@@ -46,14 +46,15 @@ header {
 
   hr {
     height: emCalc(3);
-    border-bottom: emCalc(1) solid $header-hr-color;
-    border-top: emCalc(3) solid $header-hr-color;
+    border-bottom: emCalc(1) solid $header-font-color;
+    border-top: emCalc(3) solid $header-font-color;
   }
 
   nav {
     font-family: Signika, sans-serif;
     text-align: center;
     font-size: emCalc(14);
+
     ul {
       li {
         display: inline;
