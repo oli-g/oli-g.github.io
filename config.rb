@@ -82,6 +82,7 @@ page "humans.txt", layout: false
 
 # Directory Index
 activate :directory_indexes
+set :trailing_slash, false
 
 ###
 # Helpers
