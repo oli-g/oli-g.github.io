@@ -15,7 +15,6 @@ header {
   $header-hr-color: #fe5f25;
 
   padding-top: emCalc(40);
-  padding-bottom: emCalc(15);
 
   h1 {
     font-family: Signika, sans-serif;
@@ -70,14 +69,31 @@ header {
 =================*/
 
 article {
-  h2, h3, h5 {
+  h2 {
+    margin-bottom: 0;
+  }
+
+  h2, h3 {
     font-family: Signika, sans-serif;
     font-weight: 400;
   }
-}
 
-p {
-  /*font-family: "Droid Sans", sans-serif;*/
+  h6 {
+    margin-top: - emCalc(6);
+    font-family: Signika, sans-serif;
+    font-weight: 300;
+  }
+
+  .article-body {
+    margin-top: emCalc(15);
+
+    .readmore {
+      a {
+        font-family: Signika, sans-serif;
+        font-weight: 300;
+      }
+    }
+  }
 }
 
 /*===========

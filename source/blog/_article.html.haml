@@ -1,24 +1,20 @@
 %article
-  - if digest
-    %h3
-      = link_to article.title, article
-  - else
-    %h2
-      = article.title
+  %h2
+    = link_to article.title, article
 
-  %h5
+  %h6
     = article.date.strftime("%b %e, %Y")
 
   .row
     .large-12.columns
-      %div
+      .article-body
         - if digest
           = article.summary
         - else
           = article.body
 
         - if digest and article.summary.length < article.body.length
-          %p.readmore
-            = link_to article.url, class: "button secondary radius tiny" do
+          .readmore
+            = link_to article.url, class: "right" do # , class: "button secondary radius tiny"
               Read More
-              %i.icon-arrow-right
+              %i.icon-share-alt
