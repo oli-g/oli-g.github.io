@@ -3,12 +3,14 @@ title: About Me
 ---
 
 .row
-  .large-5.columns.right{:role => "content"}
-    %img{:src => lorem.image("400x240", :text => "OLI-G img"), :alt => "Placeholder Image"}
+  .large-10.small-10.large-offset-1.small-offset-1.columns
+    .row
+      .large-5.columns.right{:role => "content"}
+        %img{:src => lorem.image("400x240", :text => "OLI-G img"), :alt => "Placeholder Image"}
 
-  .large-7.columns{:role => "content"}
-    %p
-      = lorem.paragraph
+      .large-7.columns{:role => "content"}
+        %p
+          = lorem.paragraph
 
-    %p
-      = lorem.paragraph
+        %p
+          = lorem.paragraph

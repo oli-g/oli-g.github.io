@@ -7,6 +7,6 @@ pageable: true
   OLI-G in da House | Blog
 
 .row
-  .large-12.columns.articles{:role => "content"}
+  .large-10.small-10.large-offset-1.small-offset-1.columns.articles{:role => "content"}
     - page_articles.each do |article|
       = partial "blog/article", :locals => { :article => article, :digest => true }
