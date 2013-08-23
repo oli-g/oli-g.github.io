@@ -11,8 +11,8 @@
   </author>
   <entry>
     <title>Third Example Article</title>
-    <link rel="alternate" href="/blog/2013-08-17-third-example-article/"/>
-    <id>/blog/2013-08-17-third-example-article/</id>
+    <link rel="alternate" href="/blog/2013-08-17-third-example-article"/>
+    <id>/blog/2013-08-17-third-example-article</id>
     <published>2013-08-16T22:00:00Z</published>
     <updated>2013-08-16T22:00:00Z</updated>
     <author>
@@ -39,8 +39,8 @@ in sodales metus blandit. Mauris nisi eros, venenatis a sagittis id, dictum id a
   </entry>
   <entry>
     <title>Second Example Article</title>
-    <link rel="alternate" href="/blog/2013-08-12-second-example-article/"/>
-    <id>/blog/2013-08-12-second-example-article/</id>
+    <link rel="alternate" href="/blog/2013-08-12-second-example-article"/>
+    <id>/blog/2013-08-12-second-example-article</id>
     <published>2013-08-11T22:00:00Z</published>
     <updated>2013-08-11T22:00:00Z</updated>
     <author>
@@ -67,8 +67,8 @@ in sodales metus blandit. Mauris nisi eros, venenatis a sagittis id, dictum id a
   </entry>
   <entry>
     <title>Example Article</title>
-    <link rel="alternate" href="/blog/2013-07-02-example-article/"/>
-    <id>/blog/2013-07-02-example-article/</id>
+    <link rel="alternate" href="/blog/2013-07-02-example-article"/>
+    <id>/blog/2013-07-02-example-article</id>
     <published>2013-07-01T22:00:00Z</published>
     <updated>2013-07-01T22:00:00Z</updated>
     <author>
