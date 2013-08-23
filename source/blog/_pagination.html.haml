@@ -1,0 +1,25 @@
+- if paginate and num_pages > 1
+  .pagination-centered
+    %ul.pagination
+      - if prev_page.nil?
+        %li.arrow.unavailable
+      - else
+        %li.arrow
+        = link_to "&laquo; Newer", prev_page
+      - (1..num_pages).each do |i|
+        - if i == page_number
+          %li.current.unavailable
+            = link_to i.to_s, "#"
+        - else
+          - p = nil
+          - if i < page_number
+            - (i...page_number).each do p = p ? p.metadata[:locals]["prev_page"] : prev_page; end
+          - else
+            - (page_number...i).each do p = p ? p.metadata[:locals]["next_page"] : next_page; end
+          %li
+            = link_to i.to_s, p.url
+      - if next_page.nil?
+        %li.arrow.unavailable
+      - else
+        %li.arrow
+        = link_to "Older &raquo;", next_page
