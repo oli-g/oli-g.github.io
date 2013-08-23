@@ -2,11 +2,11 @@
 title: Archive
 ---
 
-- article_years = blog.articles.map { |a| a.date.strftime("%Y")}.uniq
+- years = blog.articles.map { |a| a.date.strftime("%Y")}.uniq
 
 .row
   .large-10.small-10.large-offset-1.small-offset-1.columns.articles{role: "content"}
     %ul.archive
-      - article_years.each do |year|
+      - years.each do |year|
         - articles = blog.articles.select { |a| a.date.strftime("%Y") == year }
         = partial "partials/archive", locals: { articles: articles, date: year }
