@@ -47,15 +47,15 @@ activate :blog do |blog|
   blog.day_link = ":year/:month/:day.html"
   blog.default_extension = ".md"
 
-  blog.tag_template = "/blog/category.html"
-  blog.calendar_template = "/blog/archive.html"
+  blog.tag_template = "category.html"
+  blog.calendar_template = "calendar.html"
 
   blog.paginate = true
   blog.per_page = 5
   blog.page_link = "page/:num"
 end
 
-page "/blog/feed.xml", layout: false
+page "/feed.xml", layout: false
 
 ###
 # Page options, layouts, aliases and proxies

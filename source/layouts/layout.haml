@@ -7,17 +7,17 @@
   / <![endif]
 
   %head
-    = partial "layouts/head"
+    = partial "partials/head"
 
   %body{class: page_classes}
     %header
-      = partial "layouts/header"
+      = partial "partials/header"
 
     %section{role: "main", class: "main"}
       = yield
 
     %footer
-      = partial "layouts/footer"
+      = partial "partials/footer"
 
     = javascript_include_tag "application"
 

@@ -1,0 +1,25 @@
+---
+title: Archive
+---
+
+- case page_type
+- when "day"
+  - date = Date.new(year, month, day).strftime("%b %e %Y")
+- when "month"
+  - date = Date.new(year, month, 1).strftime("%b %Y")
+- when "year"
+  - date = year
+
+- content_for :title do
+  OLI-G in da House | Blog | Posts of #{date}
+
+.row
+  .large-10.small-10.large-offset-1.small-offset-1.columns.articles{role: "content"}
+    %ul.archive
+      %h4
+        = date
+      - page_articles.each do |article|
+        %li
+          = link_to article.title, article
+          %span.right.archive-date
+            = article.date.strftime("%b %e, %Y")
