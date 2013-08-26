@@ -3,4 +3,4 @@
 
 User-agent: *
 Disallow:
-# Sitemap: http://www.oli-g.me/sitemap.xml
+Sitemap: http://oli-g.me/sitemap.xml
