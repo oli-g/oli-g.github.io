@@ -1,9 +1,9 @@
 %meta{charset: "utf-8"}
-%meta{name: "description", content: "OLI-G in da House - Work sucks, let's code!"}
-%meta{name: "keywords", content: "giannicola, olivadoti, giannicola olivadoti, oli-g, developer, computer engineering, ruby, rails, ruby on rails, nosql"}
+%meta{name: "description", content: "#{data.site.title} - #{data.site.subtitle}"}
+%meta{name: "keywords", content: "#{data.site.keywords.join(", ")}"}
 %link{href: "/humans.txt", rel: "author", type: "text/plain"}
 
-%title= content_for?(:title) ? yield_content(:title) : "OLI-G in da House | #{current_page.data.title}"
+%title= content_for?(:title) ? yield_content(:title) : "#{data.site.title} | #{current_page.data.title}"
 
 %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
 %meta{name: "HandheldFriendly", content: "True"}
@@ -17,7 +17,7 @@
 - # Update favicon_base.png in /source and middleman-favicon-maker will generate all the versions you need on 'middleman build'
 - # OR, place favicon.ico and apple-touch-icon.png in /source and deactivate :favicon_maker in config.rb
 
-%link{href: "/blog/feed.xml", rel: "alternate", type: "application/atom+xml"}
+%link{href: "/feed.xml", rel: "alternate", type: "application/atom+xml"}
 %link{href: "http://fonts.googleapis.com/css?family=Signika:400,600,300,700", rel: "stylesheet", type: "text/css"}
 %link{href: "http://fonts.googleapis.com/css?family=Droid+Sans:400,700", rel: "stylesheet", type: "text/css"}
 = stylesheet_link_tag "application"

@@ -1,12 +1,12 @@
 xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
-  xml.title "OLI-G in da House"
-  xml.subtitle "Work sucks, let's code!"
-  xml.id "http://oli-g.me/blog"
-  xml.link "href" => "http://oli-g.me/blog"
-  xml.link "href" => "http://oli-g.me/blog/feed.xml", "rel" => "self"
+  xml.title data.site.title
+  xml.subtitle data.site.subtitle
+  xml.id "#{data.site.url}/blog"
+  xml.link "href" => "#{data.site.url}/blog"
+  xml.link "href" => "#{data.site.url}/feed.xml", "rel" => "self"
   xml.updated blog.articles.first.date.to_time.iso8601
-  xml.author { xml.name "Giannicola Olivadoti" }
+  xml.author { xml.name data.author.name }
 
   blog.articles.each do |article|
     xml.entry do
@@ -15,7 +15,7 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
       xml.id article.url
       xml.published article.date.to_time.iso8601
       xml.updated article.date.to_time.iso8601
-      xml.author { xml.name "Giannicola Olivadoti" }
+      xml.author { xml.name data.author.name }
       xml.summary article.summary, "type" => "html"
       xml.content article.body, "type" => "html"
     end
