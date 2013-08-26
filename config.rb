@@ -66,6 +66,7 @@ page "/feed.xml", layout: false
 # With no layout
 page "robots.txt", layout: false
 page "humans.txt", layout: false
+page "sitemap.xml", layout: false
 page "CNAME", layout: false
 #
 # With alternative layout
