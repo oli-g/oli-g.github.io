@@ -1,12 +1,13 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com */
-
-/* Foundation Middleman template was made by Travis Vocino, ui/ux designer and startup guy in San Francisco, CA */
-/* vocino.com */
-
 /* humanstxt.org */
+
+/* TEAM */
+  Design and Development: Giannicola Olivadoti
+  Contact: olinicola@gmail.com
+  Site: http://oli-g.me
+  From: Samarate, Varese, Italy
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: jQuery, Orbit, Reveal
-  Software: Coda, Textmate, Git
+  Components: jQuery, Modernizr, Zurb Foundation, Font Awesome
+  Software: Textmate, Git, Compass, Middleman
+  Last update: 2013/08/26
