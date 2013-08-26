@@ -1,10 +1,10 @@
 xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
   xml.title "OLI-G in da House"
-  xml.subtitle "Subtitle"
-  xml.id "http://oli-g.github.io/blog"
-  xml.link "href" => "http://oli-g.github.io/blog"
-  xml.link "href" => "http://oli-g.github.io/blog/feed.xml", "rel" => "self"
+  xml.subtitle "Work sucks, let's code!"
+  xml.id "http://oli-g.me/blog"
+  xml.link "href" => "http://oli-g.me/blog"
+  xml.link "href" => "http://oli-g.me/blog/feed.xml", "rel" => "self"
   xml.updated blog.articles.first.date.to_time.iso8601
   xml.author { xml.name "Giannicola Olivadoti" }
 
