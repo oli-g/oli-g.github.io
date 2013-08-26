@@ -22,6 +22,13 @@ GIT
       image_optim (~> 0.8.0)
       middleman-core (>= 3.0)
 
+GIT
+  remote: git://github.com/tmaier/middleman-google-analytics.git
+  revision: 35da1667e56c1e985d9a89f97e8da4c7dbc29064
+  specs:
+    middleman-google-analytics (0.0.1)
+      middleman-core (>= 3.0.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -173,6 +180,7 @@ DEPENDENCIES
   middleman-blog (~> 3.2.0)
   middleman-deploy (~> 0.1.2)
   middleman-favicon-maker!
+  middleman-google-analytics!
   middleman-imageoptim!
   middleman-livereload (~> 3.1.0)
   middleman-smusher!

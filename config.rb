@@ -109,6 +109,11 @@ activate :livereload
 
 configure :development do
   # set :debug_assets, true
+
+  # Set Google Analytics code
+  activate :google_analytics do |ga|
+    ga.tracking_id = false
+  end
 end
 
 ###
@@ -136,6 +141,11 @@ configure :build do
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
+
+  # Set Google Analytics code
+  activate :google_analytics do |ga|
+    ga.tracking_id = data.site.google_analytics_tracking_id
+  end
 end
 
 ###
