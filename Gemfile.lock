@@ -121,6 +121,9 @@ GEM
       sprockets (~> 2.1)
       sprockets-helpers (~> 1.0.0)
       sprockets-sass (~> 1.0.0)
+    middleman-syntax (1.2.1)
+      middleman-core (~> 3.0)
+      rouge (~> 0.3.0)
     mini_magick (3.6.0)
       subexec (~> 0.2.1)
     multi_json (1.7.9)
@@ -141,6 +144,8 @@ GEM
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
     redcarpet (3.0.0)
+    rouge (0.3.10)
+      thor
     sass (3.2.10)
     smusher (0.4.9)
       httpclient (>= 2.2)
@@ -184,5 +189,6 @@ DEPENDENCIES
   middleman-imageoptim!
   middleman-livereload (~> 3.1.0)
   middleman-smusher!
+  middleman-syntax (~> 1.2.1)
   redcarpet (~> 3.0.0)
   zurb-foundation (~> 4.3.1)

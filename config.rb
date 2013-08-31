@@ -16,6 +16,12 @@ set :js_dir, "javascripts"
 set :images_dir, "images"
 
 ###
+# Syntax Highlighting
+###
+
+activate :syntax
+
+###
 # HAML
 ###
 

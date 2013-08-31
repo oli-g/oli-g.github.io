@@ -90,8 +90,12 @@ header {
       margin-left: emCalc(20);
     }
 
+    pre {
+      margin-bottom: emCalc(20);
+    }
+
     .article-body {
-      margin-top: emCalc(15);
+      margin-top: emCalc(20);
 
       .readmore {
         a {
