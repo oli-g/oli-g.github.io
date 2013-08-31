@@ -86,6 +86,10 @@ header {
       font-weight: 300;
     }
 
+    ul {
+      margin-left: emCalc(20);
+    }
+
     .article-body {
       margin-top: emCalc(15);
 
