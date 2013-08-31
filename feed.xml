@@ -5,92 +5,43 @@
   <id>http://oli-g.me/blog</id>
   <link href="http://oli-g.me/blog"/>
   <link href="http://oli-g.me/feed.xml" rel="self"/>
-  <updated>2013-08-16T22:00:00Z</updated>
+  <updated>2013-08-29T22:00:00Z</updated>
   <author>
     <name>Giannicola Olivadoti</name>
   </author>
   <entry>
-    <title>Third Example Article</title>
-    <link rel="alternate" href="/blog/2013-08-17-third-example-article"/>
-    <id>/blog/2013-08-17-third-example-article</id>
-    <published>2013-08-16T22:00:00Z</published>
-    <updated>2013-08-16T22:00:00Z</updated>
+    <title>Middleman vs Jekyll</title>
+    <link rel="alternate" href="/blog/2013-08-30-middleman-vs-jekyll"/>
+    <id>/blog/2013-08-30-middleman-vs-jekyll</id>
+    <published>2013-08-29T22:00:00Z</published>
+    <updated>2013-08-29T22:00:00Z</updated>
     <author>
       <name>Giannicola Olivadoti</name>
     </author>
-    <summary type="html">&lt;p&gt;This is the third example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+    <summary type="html">&lt;p&gt;When I finally decided to build this site, my goal was to find a simple and elegant solution for creating, updating and hosting my personal home page and this blog.
+Wordpress and other similar CMS were discarded a priori, because I already decided to build this in static HTML. Reasons are countless:&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lorem quis eros dictum dictum a vitae purus. Quisque non elit sit amet turpis ullamcorper blandit. 
-Suspendisse vitae turpis et enim feugiat ullamcorper at non turpis. Vestibulum posuere, eros eget vulputate faucibus, metus massa congue velit, non pulvinar tortor risus 
-ut enim. Pellentesque lectus ligula, vehicula luctus volutpat in, convallis quis ante. Proin non odio eu orci feugiat feugiat. Mauris molestie nisi non venenatis molestie. 
-Pellentesque facilisis eros ut ultrices ultrices.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Speed&lt;/strong&gt;: there&amp;rsquo;s no server side computation, so pages load blazing fast.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simplicity&lt;/strong&gt;: no need for a database or a cache store, just a web server. Or not even a web server, if you drop everything on Amazon S3 or GitHub Pages.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security&lt;/strong&gt;: no SQL injection risks, no CSRF tokens to handle.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools&lt;/strong&gt;: lot of tools for the job, supporting a number of awesome technologies, such as CoffeeScript, SASS, Markdown, HAML.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Obviously, I would not build a static site without a generator tool that handles links and menus, puts together layouts with page templates and partials and compiles Markdown and SASS files. &lt;a href="https://iwantmyname.com/blog/2011/02/list-static-website-generators.html"&gt;A lot of static site generators&lt;/a&gt; arised in these years but, since I love Ruby, my choice would be between Middleman and Jekyll.
 </summary>
-    <content type="html">&lt;p&gt;This is the third example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+    <content type="html">&lt;p&gt;When I finally decided to build this site, my goal was to find a simple and elegant solution for creating, updating and hosting my personal home page and this blog.
+Wordpress and other similar CMS were discarded a priori, because I already decided to build this in static HTML. Reasons are countless:&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lorem quis eros dictum dictum a vitae purus. Quisque non elit sit amet turpis ullamcorper blandit. 
-Suspendisse vitae turpis et enim feugiat ullamcorper at non turpis. Vestibulum posuere, eros eget vulputate faucibus, metus massa congue velit, non pulvinar tortor risus 
-ut enim. Pellentesque lectus ligula, vehicula luctus volutpat in, convallis quis ante. Proin non odio eu orci feugiat feugiat. Mauris molestie nisi non venenatis molestie. 
-Pellentesque facilisis eros ut ultrices ultrices.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Speed&lt;/strong&gt;: there&amp;rsquo;s no server side computation, so pages load blazing fast.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simplicity&lt;/strong&gt;: no need for a database or a cache store, just a web server. Or not even a web server, if you drop everything on Amazon S3 or GitHub Pages.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security&lt;/strong&gt;: no SQL injection risks, no CSRF tokens to handle.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools&lt;/strong&gt;: lot of tools for the job, supporting a number of awesome technologies, such as CoffeeScript, SASS, Markdown, HAML.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Obviously, I would not build a static site without a generator tool that handles links and menus, puts together layouts with page templates and partials and compiles Markdown and SASS files. &lt;a href="https://iwantmyname.com/blog/2011/02/list-static-website-generators.html"&gt;A lot of static site generators&lt;/a&gt; arised in these years but, since I love Ruby, my choice would be between Middleman and Jekyll.
 &lt;/p&gt;
-
-&lt;p&gt;Nam commodo hendrerit scelerisque. Ut tristique lacus lobortis neque rhoncus, ut tempor enim mattis. Suspendisse vel eleifend quam. Suspendisse luctus nisl eget elit euismod, 
-in sodales metus blandit. Mauris nisi eros, venenatis a sagittis id, dictum id arcu. Nam tempus pulvinar ante at semper. Donec tincidunt dolor ac sem tempor laoreet.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Second Example Article</title>
-    <link rel="alternate" href="/blog/2013-08-12-second-example-article"/>
-    <id>/blog/2013-08-12-second-example-article</id>
-    <published>2013-08-11T22:00:00Z</published>
-    <updated>2013-08-11T22:00:00Z</updated>
-    <author>
-      <name>Giannicola Olivadoti</name>
-    </author>
-    <summary type="html">&lt;p&gt;This is another example article. You probably want to delete it and write your own articles!&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lorem quis eros dictum dictum a vitae purus. Quisque non elit sit amet turpis ullamcorper blandit. 
-Suspendisse vitae turpis et enim feugiat ullamcorper at non turpis. Vestibulum posuere, eros eget vulputate faucibus, metus massa congue velit, non pulvinar tortor risus 
-ut enim. Pellentesque lectus ligula, vehicula luctus volutpat in, convallis quis ante. Proin non odio eu orci feugiat feugiat. Mauris molestie nisi non venenatis molestie. 
-Pellentesque facilisis eros ut ultrices ultrices.
-</summary>
-    <content type="html">&lt;p&gt;This is another example article. You probably want to delete it and write your own articles!&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lorem quis eros dictum dictum a vitae purus. Quisque non elit sit amet turpis ullamcorper blandit. 
-Suspendisse vitae turpis et enim feugiat ullamcorper at non turpis. Vestibulum posuere, eros eget vulputate faucibus, metus massa congue velit, non pulvinar tortor risus 
-ut enim. Pellentesque lectus ligula, vehicula luctus volutpat in, convallis quis ante. Proin non odio eu orci feugiat feugiat. Mauris molestie nisi non venenatis molestie. 
-Pellentesque facilisis eros ut ultrices ultrices.
-&lt;/p&gt;
-
-&lt;p&gt;Nam commodo hendrerit scelerisque. Ut tristique lacus lobortis neque rhoncus, ut tempor enim mattis. Suspendisse vel eleifend quam. Suspendisse luctus nisl eget elit euismod, 
-in sodales metus blandit. Mauris nisi eros, venenatis a sagittis id, dictum id arcu. Nam tempus pulvinar ante at semper. Donec tincidunt dolor ac sem tempor laoreet.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Example Article</title>
-    <link rel="alternate" href="/blog/2013-07-02-example-article"/>
-    <id>/blog/2013-07-02-example-article</id>
-    <published>2013-07-01T22:00:00Z</published>
-    <updated>2013-07-01T22:00:00Z</updated>
-    <author>
-      <name>Giannicola Olivadoti</name>
-    </author>
-    <summary type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lorem quis eros dictum dictum a vitae purus. Quisque non elit sit amet turpis ullamcorper blandit. 
-Suspendisse vitae turpis et enim feugiat ullamcorper at non turpis. Vestibulum posuere, eros eget vulputate faucibus, metus massa congue velit, non pulvinar tortor risus 
-ut enim. Pellentesque lectus ligula, vehicula luctus volutpat in, convallis quis ante. Proin non odio eu orci feugiat feugiat. Mauris molestie nisi non venenatis molestie. 
-Pellentesque facilisis eros ut ultrices ultrices.
-</summary>
-    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lorem quis eros dictum dictum a vitae purus. Quisque non elit sit amet turpis ullamcorper blandit. 
-Suspendisse vitae turpis et enim feugiat ullamcorper at non turpis. Vestibulum posuere, eros eget vulputate faucibus, metus massa congue velit, non pulvinar tortor risus 
-ut enim. Pellentesque lectus ligula, vehicula luctus volutpat in, convallis quis ante. Proin non odio eu orci feugiat feugiat. Mauris molestie nisi non venenatis molestie. 
-Pellentesque facilisis eros ut ultrices ultrices.
-&lt;/p&gt;
-
-&lt;p&gt;Nam commodo hendrerit scelerisque. Ut tristique lacus lobortis neque rhoncus, ut tempor enim mattis. Suspendisse vel eleifend quam. Suspendisse luctus nisl eget elit euismod, 
-in sodales metus blandit. Mauris nisi eros, venenatis a sagittis id, dictum id arcu. Nam tempus pulvinar ante at semper. Donec tincidunt dolor ac sem tempor laoreet.&lt;/p&gt;
 </content>
   </entry>
 </feed>

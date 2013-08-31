@@ -10,4 +10,4 @@
   Standards: HTML5, CSS3, Atom
   Components: jQuery, Modernizr, Zurb Foundation, Font Awesome
   Software: Textmate, Git, Compass, Middleman
-  Last update: 2013/08/29
+  Last update: 2013/08/31
