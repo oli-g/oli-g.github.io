@@ -10,7 +10,7 @@
 <meta content="OLI-G indahouse - Work sucks, let's code!" name='description'>
 <meta content='giannicola, olivadoti, giannicola olivadoti, oli-g, developer, computer engineering, ruby, rails, ruby on rails, nosql' name='keywords'>
 <link href='/humans.txt' rel='author' type='text/plain'>
-<title>OLI-G indahouse | Middleman vs Jekyll</title>
+<title>OLI-G indahouse | Static site generators: Middleman or Jekyll?</title>
 <meta content='width=device-width, initial-scale=1.0' name='viewport'>
 <meta content='True' name='HandheldFriendly'>
 <meta content='320' name='MobileOptimized'>
@@ -103,7 +103,7 @@ indahouse
 <div class='large-10 small-10 large-offset-1 small-offset-1 columns articles' role='content'>
 <article>
 <h2>
-<a href="/blog/2013-08-30-middleman-vs-jekyll">Middleman vs Jekyll</a>
+<a href="/blog/2013-08-30-middleman-vs-jekyll">Static site generators: Middleman or Jekyll?</a>
 </h2>
 <h6>
 Aug 30, 2013
@@ -111,18 +111,25 @@ Aug 30, 2013
 <div class='row'>
 <div class='large-12 columns'>
 <div class='article-body'>
-<p>When I finally decided to build this site, my goal was to find a simple and elegant solution for creating, updating and hosting my personal home page and this blog.
+<p>When I finally decided to build this site, my ultimate goal was to find a simple and elegant solution for creating, updating and hosting my personal home page and this blog.
 Wordpress and other similar CMS were discarded a priori, because I already decided to build this in static HTML. Reasons are countless:</p>
 
 <ul>
-<li><strong>Speed</strong>: there&rsquo;s no server side computation, so pages load blazing fast.</li>
+<li><strong>Speed</strong>: no server side computation, pages load blazing fast.</li>
 <li><strong>Simplicity</strong>: no need for a database or a cache store, just a web server. Or not even a web server, if you drop everything on Amazon S3 or GitHub Pages.</li>
 <li><strong>Security</strong>: no SQL injection risks, no CSRF tokens to handle.</li>
 <li><strong>Tools</strong>: lot of tools for the job, supporting a number of awesome technologies, such as CoffeeScript, SASS, Markdown, HAML.</li>
 </ul>
 
-<p>Obviously, I would not build a static site without a generator tool that handles links and menus, puts together layouts with page templates and partials and compiles Markdown and SASS files. <a href="https://iwantmyname.com/blog/2011/02/list-static-website-generators.html">A lot of static site generators</a> arised in these years but, since I love Ruby, my choice would be between Middleman and Jekyll.
-</p>
+<p></p>
+
+<h3>Static site generators</h3>
+
+<p>Obviously, I would not build a static site without a generator tool that handles links and navigation, applies a common layout to all page templates and compiles Markdown and SASS files. Rather than writing manually each line of HTML, copying and pasting the common parts between pages, a static site generator allows you to organize the HTML source in layouts, pages and partials, avoiding duplication. A static site generator worthy of the name should compile any modern pre-process language like HAML, Markdown, SASS or CoffeeScript, spitting out plain old HTML, CSS and JavaScript files.</p>
+
+<p>A lot of <a href="https://iwantmyname.com/blog/2011/02/list-static-website-generators.html">static site generators</a> arised in these years: they can make life easier not only for bloggers striving to avoid Wordpress, but even for web designers and developers when prototyping web properties or web applications. Even people not so confident with the command line can leverage on some nice GUI tools (<a href="http://incident57.com/codekit">CodeKit</a>, <a href="http://hammerformac.com">Hammer</a> and <a href="http://mixture.io">Mixture</a>, just to name a few) or web applications (check <a href="http://www.webpop.com">Webpop</a> and <a href="http://www.ensocloud.com/">EnsoCloud</a>).</p>
+
+<p>Since I love Ruby, my choice was between Middleman and Jekyll.</p>
 
 </div>
 </div>
